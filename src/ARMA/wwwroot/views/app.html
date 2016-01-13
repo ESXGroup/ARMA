@@ -1,0 +1,32 @@
+<template id="logintemplate">
+    <import from="./behaviors/focus"></import>
+
+    <div id="loginwrapper">
+
+        <!--SLIDE-IN ICONS-->
+        <div class="user-icon"></div>
+        <div class="pass-icon"></div>
+        <!--END SLIDE-IN ICONS-->
+
+        <!--LOGIN FORM-->
+        <form name="login-form" class="login-form" action="" method="post">
+
+            <div class="header">
+                <h1>PORTAL LOGIN</h1>
+                <!--<span>ARMA LOGIN</span>-->
+            </div>
+            <div class="content">
+                <input type="text" class="input username" value="Username" focusin.delegate="userFocusIn($element)" focusout.delegate="userFocusOut($element)"/>
+                <input name="password" type="password" class="input password" value="Password" focusin.delegate="pwFocusIn($element)" focusout.delegate="pwFocusOut($element)"/>
+            </div>
+            <div class="footer">
+                <input type="submit" name="submit" value="Login" class="button"/>
+                <input type="submit" name="submit" value="Register" class="register"/>
+            </div>
+        </form>
+        <!--END LOGIN FORM-->
+
+
+    </div>
+    <div class="gradient"></div>
+</template>

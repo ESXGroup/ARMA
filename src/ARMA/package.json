@@ -1,0 +1,26 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.1",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "font-awesome": "npm:font-awesome@^4.4.0",
+      "jquery": "github:components/jquery@^2.1.4"
+    },
+    "devDependencies": {
+      "core-js": "npm:core-js@^1.2.6",
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "devDependencies": {
+    "aurelia-bundler": "^0.1.9",
+    "core-js": "^1.2.6",
+    "gulp": "^3.9.0",
+    "tsconfig-glob": "^0.3.1"
+  }
+}

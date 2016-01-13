@@ -1,0 +1,9 @@
+﻿{
+    "IncludeScopes": "false",
+    "LogLevel": {
+        "Default": "Verbose",
+        "System": "Information",
+        "Microsoft": "Information"
+    }
+}
+
